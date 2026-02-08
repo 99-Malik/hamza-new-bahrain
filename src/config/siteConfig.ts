@@ -1,5 +1,5 @@
 export const siteConfig = {
-  companyName: "Appliance Service Center AE",
+  companyName: "Appex Appliances Repairs",
   phoneNumber: "+971545900148",
   locations: "Dubai and Abu Dhabi",
   email: "info@appliancerepair.ae",
@@ -13,7 +13,7 @@ export const companies = [
     id: "bosch",
     name: "Bosch",
     logo: "/bosch.svg",
-    description: "Authorized Bosch service center in UAE",
+    description: "Bosch service center in UAE",
     color: "#c41e3a",
     heroImage: "/bosch.svg"
   },
@@ -29,7 +29,7 @@ export const companies = [
     id: "lg",
     name: "LG",
     logo: "/lg.svg", 
-    description: "Official LG service and repair center",
+    description: "LG service and repair center",
     color: "#a50034",
     heroImage: "/lg.svg"
   },
@@ -37,7 +37,7 @@ export const companies = [
     id: "samsung",
     name: "Samsung",
     logo: "/samsung.svg",
-    description: "Samsung authorized repair service",
+    description: "Samsung repair service",
     color: "#1428a0",
     heroImage: "/samsung.svg"
   }

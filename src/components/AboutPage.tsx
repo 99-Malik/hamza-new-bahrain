@@ -23,7 +23,7 @@ export function AboutPage({ currentCompany }: AboutPageProps) {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             {currentCompanyData 
-              ? `We are the leading ${currentCompanyData.name} authorized service center in ${siteConfig.locations}, providing professional repair services with certified technicians and genuine parts.`
+              ? `We are the leading ${currentCompanyData.name} service center in ${siteConfig.locations}, providing professional repair services with certified technicians and genuine parts.`
               : `Leading appliance repair service center in ${siteConfig.locations} with over 15 years of experience serving homeowners and businesses.`
             }
           </p>
@@ -37,8 +37,8 @@ export function AboutPage({ currentCompany }: AboutPageProps) {
             </h2>
             <p className="text-gray-600 mb-6">
               {currentCompanyData
-                ? `As an authorized ${currentCompanyData.name} service center, we specialize in diagnosing and repairing all ${currentCompanyData.name} home appliances. Our certified technicians undergo regular training to stay updated with the latest ${currentCompanyData.name} technologies and repair techniques.`
-                : `Our company has been serving the UAE community for over 15 years, providing reliable and professional appliance repair services. We are authorized service providers for all major brands including Bosch, Siemens, LG, and Samsung.`
+                ? `As a ${currentCompanyData.name} service center, we specialize in diagnosing and repairing all ${currentCompanyData.name} home appliances. Our certified technicians undergo regular training to stay updated with the latest ${currentCompanyData.name} technologies and repair techniques.`
+                : `Our company has been serving the UAE community for over 15 years, providing reliable and professional appliance repair services. We are service providers for all major brands including Bosch, Siemens, LG, and Samsung.`
               }
             </p>
             <p className="text-gray-600 mb-8">

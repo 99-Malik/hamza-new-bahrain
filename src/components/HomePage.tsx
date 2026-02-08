@@ -29,11 +29,11 @@ export function HomePage({ currentCompany }: HomePageProps) {
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                 {currentCompanyData ? `${currentCompanyData.name} ` : ''}
-                Appliance Service Center AE in {siteConfig.locations}
+                {siteConfig.companyName} in {siteConfig.locations}
               </h1>
               <p className="text-xl mb-8 opacity-90">
                 {currentCompanyData 
-                  ? `Professional ${currentCompanyData.name} appliance repair services with certified technicians and genuine parts.`
+                  ? `${currentCompanyData.name} Service Center — ${currentCompanyData.name} appliance repair services with certified technicians and genuine parts.`
                   : `Professional home appliance repair services for all major brands. Expert technicians available 24/7 in ${siteConfig.locations}.`
                 }
               </p>
@@ -172,7 +172,7 @@ export function HomePage({ currentCompany }: HomePageProps) {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Brands We Service</h2>
               <p className="text-xl text-muted-foreground">
-                Authorized service center for leading appliance brands
+                Service center for leading appliance brands
               </p>
             </div>
 
