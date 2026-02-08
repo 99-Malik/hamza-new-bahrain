@@ -18,7 +18,7 @@ export function HomePage({ currentCompany }: HomePageProps) {
     ? services.filter(service => service.availableFor.includes(currentCompany))
     : services
 
-  const servicePrefix = currentCompany ? `/${currentCompany}` : ''
+  const servicePrefix = currentCompany ? `/repair/${currentCompany}` : ''
 
   return (
     <div className="min-h-screen">
@@ -154,7 +154,7 @@ export function HomePage({ currentCompany }: HomePageProps) {
                   <CardTitle className="mb-2">{service.name}</CardTitle>
                   <CardDescription className="mb-4">{service.description}</CardDescription>
                   <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                    <Link href={`${servicePrefix}/services#${service.id}`}>
+                    <Link href={`${servicePrefix}#services`}>
                       Learn More
                     </Link>
                   </Button>
@@ -178,7 +178,7 @@ export function HomePage({ currentCompany }: HomePageProps) {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {companies.map((company) => (
-                <Link key={company.id} href={`/${company.id}`}>
+                <Link key={company.id} href={`/repair/${company.id}`}>
                   <Card className="hover:shadow-lg transition-shadow cursor-pointer group hover:border-primary/30">
                     <CardContent className="p-6 text-center">
                       <ImageWithFallback
@@ -214,7 +214,7 @@ export function HomePage({ currentCompany }: HomePageProps) {
               Call {siteConfig.phoneNumber}
             </Button>
             <Button size="lg" variant="outline" className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground">
-              <Link href={`${servicePrefix}/contact`}>Get Free Quote</Link>
+              <Link href={`${servicePrefix}#contact`}>Get Free Quote</Link>
             </Button>
           </div>
         </div>

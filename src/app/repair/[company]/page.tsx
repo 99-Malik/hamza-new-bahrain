@@ -4,14 +4,13 @@ import { HeroSection } from "@/components/HeroSection";
 import { ServicesSection } from "@/components/ServiceSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 
-export default async function App({
+export default async function RepairCompanyPage({
   params,
 }: {
   params: Promise<{ company: string }>;
 }) {
   const currentCompany = (await params).company;
 
-  
   return (
     <>
       <HeroSection currentCompany={currentCompany} />
