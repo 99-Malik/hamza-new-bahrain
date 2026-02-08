@@ -91,7 +91,7 @@ export function Footer() {
           >
             {currentCompanyData
               ? `SERVICE CENTER – ${currentCompanyData.name.toUpperCase()}`
-              : `APPEX APPLIANCES REPAIRS`}
+              : `APEX APPLIANCES REPAIRS`}
           </span>
         </motion.div>
 
@@ -117,7 +117,7 @@ export function Footer() {
                   className="text-xl font-bold"
                   style={{ color: "#FFFFFF" }}
                 >
-                  Appex Appliances Repairs
+                  Apex Appliances Repairs
                 </h3>
               )}
             </div>
@@ -185,7 +185,7 @@ export function Footer() {
           style={{ borderTop: `1px solid ${theme.border}`, color: "rgba(255,255,255,0.80)" }}
         >
           <p>
-            &copy; 2025 {currentCompanyData?.name || "Appex Appliances Repairs"}. All rights reserved.
+            &copy; 2025 {currentCompanyData?.name || "Apex Appliances Repairs"}. All rights reserved.
             {" "} | Professional Service Center in UAE
           </p>
         </motion.div>

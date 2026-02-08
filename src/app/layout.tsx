@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Appex Appliances Repairs",
-  description: "Appex Appliances Repairs – Professional home appliance repair services in Dubai and Abu Dhabi. Expert technicians for all major brands.",
+  title: "Apex Appliances Repairs",
+  description: "Apex Appliances Repairs – Professional home appliance repair services in Dubai and Abu Dhabi. Expert technicians for all major brands.",
 };
 
 export default function RootLayout({

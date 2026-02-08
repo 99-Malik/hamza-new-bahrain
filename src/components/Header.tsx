@@ -100,7 +100,7 @@ export function Header() {
                 className="text-2xl font-bold"
                 style={{ color: "#111827" }}
               >
-                Appex Appliances Repairs
+                Apex Appliances Repairs
               </span>
             )}
           </div>
